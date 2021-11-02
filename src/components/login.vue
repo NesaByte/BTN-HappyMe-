@@ -1,13 +1,14 @@
 <template>
   <div>
-    <h1>Login Page</h1>
+    <img src="../assets/bushyCry.png" alt="bushySmile.png" style="width:200px;height:200px;">
+    <h1>Login to learn how to be happy</h1>
     <form @submit.prevent="login">
-      <label>User Name</label>
+      <label>User Name</label> <br>
       <input type="text" v-model="userName" required>
-      <br>
-      <label>Password</label>
+      <br><br>
+      <label>Password</label> <br>
       <input type="password" v-model="password" required>
-      <br>
+      <br><br>
       <button type="submit">Log In</button>
     </form>
   </div>
@@ -23,7 +24,7 @@
     methods: {
       login(){
         //write login authencation logic here!
-        if( this.userName == 'abcd' && this.password == '1234' ){
+        if( this.userName == 'abcd' && this.password == 'btn710@G#' ){
           localStorage.setItem('token', 'ImLogin')
           this.$router.push('/');
         } else{

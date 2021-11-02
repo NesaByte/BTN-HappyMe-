@@ -1,32 +1,25 @@
 <template>
   <div class="hello">
-    <h1>HAPPY ME {{ msg }}</h1>
+    <h1>How to be happy like BushyTail {{ msg }}</h1>
+    <img src="../assets/bushySmile.png" alt="bushySmile.png" style="width:200px;height:200px;">
+    <h3>Smile</h3> 
     <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+      You tend to smile when you’re happy. But it’s actually a two-way street.
+            <a href="https://www.healthline.com/health/how-to-be-happy#daily-habits" target="_blank" rel="noopener">HealthLine</a>.
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+
+    <h3>Exercise</h3> 
+    <p>
+      Exercise isn’t just for your body. Regular exercise can help to reduce stress, feelings of anxiety, and symptoms of depression while boosting self-esteem and happiness.
+            <a href="https://www.healthline.com/health/how-to-be-happy#daily-habits" target="_blank" rel="noopener">HealthLine</a>.
+    </p>
+
+
+    <h3>Get plenty of sleep</h3> 
+    <p>
+      No matter how much modern society steers us toward less sleep, we know that adequate sleep is vital to good health, brain function, and emotional well-being.
+            <a href="https://www.healthline.com/health/how-to-be-happy#daily-habits" target="_blank" rel="noopener">HealthLine</a>.
+    </p>
   </div>
 </template>
 
