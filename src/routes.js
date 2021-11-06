@@ -1,5 +1,6 @@
 import Login from './components/login.vue';
 import Header from './components/header.vue';
+import Admin from './components/admin.vue';
 import Home from './components/home.vue'; 
 
 export const routes = [
@@ -11,6 +12,13 @@ export const routes = [
     path: '/',
     components: {
       default: Home,
+      nav: Header
+    }
+  }, 
+  {
+    path: '/admin',
+    components: {
+      default: Admin,
       nav: Header
     }
   }, 
