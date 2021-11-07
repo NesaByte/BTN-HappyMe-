@@ -9,19 +9,26 @@ export const routes = [
     component: Login
   },
   {
-    path: '/',
-    components: {
-      default: Home,
-      nav: Header
-    }
-  }, 
-  {
     path: '/admin',
     components: {
       default: Admin,
       nav: Header
     }
-  }, 
+  },
+  {
+    path: '/home',
+    components: {
+      default: Home,
+      nav: Header
+    }
+  },
+  {
+    path: '/',
+    components: {
+      default: Login,
+      nav: Header
+    }
+  },   
   {
     path: '*',
     redirect: '/',

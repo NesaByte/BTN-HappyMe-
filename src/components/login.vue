@@ -26,7 +26,7 @@
         //write login authencation logic here!
         if( this.userName == 'admin' && this.password == 'admin' ){
           localStorage.setItem('token', 'ImLogin')
-          this.$router.push('/');
+          this.$router.push('/home');
         } else{
           alert('login failed')
         }

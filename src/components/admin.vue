@@ -4,7 +4,7 @@
     <img src="../assets/bushySmile.png" alt="bushySmile.png" style="width:200px;height:200px;">
     <h3>Smile</h3> 
     <p>
-      This is a super secret page. How are you here?
+      This is a super secret page. How are you here? 1
     </p>
   </div>
 </template>
