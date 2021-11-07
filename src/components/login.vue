@@ -11,6 +11,8 @@
       <br><br>
       <button type="submit">Log In</button>
     </form>
+    <router-link to="/admin">a </router-link>
+
   </div>
 </template>
 <script>

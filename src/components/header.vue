@@ -1,5 +1,6 @@
 <template>
   <div> 
+    <router-link to="/admin">a </router-link>
     <a href="" @click.prevent="logout">Logout</a>
   </div>
 </template>

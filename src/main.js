@@ -35,10 +35,10 @@ export const routes = [
   }, 
   
      
-  // {
-  //   path: '*',
-  //   component : Inside
-  // }
+  {
+    path: '*',
+    component : LoginPage
+  }
 ];
 
 const router = new VueRouter({
@@ -54,11 +54,13 @@ router.beforeEach(({meta, path}, from, next)=>{
   const isLogin = localStorage.getItem('token') == 'ImLogin' ;
   
   if (auth && !isLogin && path !== '/login') {
-    return next({ path: '/login' })
-  } 
+    //return next({ path: '/login' })
+  next() 
 
+  } 
   next() 
 });
+
 
 new Vue({
   el: '#app',
