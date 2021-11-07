@@ -21,7 +21,14 @@ export const routes = [
       default: Home,
       nav: Header
     }
-  },  
+  },
+  {
+    path: '/',
+    components: {
+      default: Login,
+      nav: Header
+    }
+  },   
   {
     path: '*',
     redirect: '/',
