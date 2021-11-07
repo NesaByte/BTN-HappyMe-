@@ -10,6 +10,9 @@
 </template>
 
 <script>
+
+    console.log("[ADMIN ]to.path");
+
 export default {
   name: 'HelloWorld',
   props: {

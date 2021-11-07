@@ -28,7 +28,7 @@
           localStorage.setItem('token', 'ImLogin')
           this.$router.push('/home');
         } else{
-          alert('login failed')
+          //alert('login failed')
         }
       }
     } 
