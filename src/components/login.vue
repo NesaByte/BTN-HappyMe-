@@ -26,11 +26,11 @@
     methods: {
       login(){
         //write login authencation logic here!
-        if( this.userName == 'admin' && this.password == 'admin' ){
+        if( this.userName == 'admin' && this.password == 'btn710@G#' ){
           localStorage.setItem('token', 'ImLogin')
           this.$router.push('/home');
         } else{
-          //alert('login failed')
+          alert('The username or password is incorrect')
         }
       }
     } 
