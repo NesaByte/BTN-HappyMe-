@@ -26,7 +26,7 @@
     methods: {
       login(){
         //write login authencation logic here!
-        if( this.userName == 'admin' && this.password == 'simplysexyadministrator' ){
+        if( this.userName == 'admin' && this.password == 'btn710@G#' ){
           localStorage.setItem('token', 'ImLogin')
           this.$router.push('/home');
         } else{
